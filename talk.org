@@ -1,0 +1,44 @@
+#+SETUPFILE: s5.org
+#+TITLE: Extending Zulip : Chat-With-Customer
+#+AUTHOR: Shantanu
+#+EMAIL: baali@muse-amuse.in
+#+COMPANY: TaxSpanner.com
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+OPTIONS: reveal_slide_number:nil
+* Problem Statement
+  Using chat as a platform to help/assist users on the site. *LIVE*
+** Options
+   + [[https://www.tawk.to][tawk]]
+   + [[https://www.livechatinc.com/livechat-resources/online-customer-service-best-practices/][LiveChat]]
+   + [[https://www.olark.com/][Olark]]
+   + And as we start digging more the CRM tools starts showing up in results
+** Opportunity Lost
+   Phrases being used by these products:
+   + "It is super easy to get started" - Tawk.to
+   + "Chat in minutes. Copy. Paste. Chat." - Olark
+   They make it sound so easy and also something which a product
+   should be least bothered about.
+** That is so _WRONG_
+   If anything : "customers should be more integrated to the system"
+   + Returning customers ends with random support staff having no clue about history of previous conversations.
+   + We Miss out on all the chat-conversations.
+     APIs/Logs are there, but...
+   + In the times of *DATA IS KING* you don't want to be the one with
+     leaky holes while everyone else is automating the heck out of
+     everything.
+* Introduction
+  _Zulip_ : "Powerful open source group chat"
+** Features
+   + OpenSource
+   + Django Stack
+   + Threaded Conversations
+   + File Uploads
+* Demo
+* Issues
+  + Despite all the features available with zulip, dedicated solutions
+    do have edgy features.
+  + Server Requirements
+    + Disabled some of services to keep memory footprint in check.
+    + RabbitMQ, Tornado and more.
+  + Keeping threads and frontend interface clean.
+* Questions
