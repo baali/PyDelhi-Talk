@@ -4,7 +4,7 @@
 #+EMAIL: baali@muse-amuse.in
 #+COMPANY: TaxSpanner.com
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
-#+OPTIONS: reveal_slide_number:nil
+#+OPTIONS: num:nil
 * Problem Statement
   Using chat as a platform to help/assist users on the site. *LIVE*
 ** Options
@@ -32,6 +32,7 @@
    + OpenSource
    + Django Stack
    + Threaded Conversations
+   + Bots!
    + File Uploads
 * Demo
 * Issues
@@ -41,4 +42,4 @@
     + Disabled some of services to keep memory footprint in check.
     + RabbitMQ, Tornado and more.
   + Keeping threads and frontend interface clean.
-* Questions
+* Questions?
