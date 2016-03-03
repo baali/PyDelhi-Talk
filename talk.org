@@ -6,8 +6,19 @@
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+OPTIONS: toc:1
 #+OPTIONS: num:nil
-* Problem Statement
-  Using chat as a platform to help/assist users on the site. *LIVE*
+* Whom is this talk for?
+  #+BEGIN_QUOTE
+  Do you have a web-application?
+  #+END_QUOTE
+  #+BEGIN_QUOTE
+  Do you use your own/third party app for Assisting your customers
+  over chat?
+  #+END_QUOTE
+** Introduction
+   If answer to both previous questions is *YES* or you are considering
+   to add such a feature. Then:
+   + We will look at existing options and their limitations.
+   + How we have used/extended zulip to offer a _better_ service.
 ** Options
    + [[https://www.tawk.to][tawk.to]]
    + [[https://www.livechatinc.com/livechat-resources/online-customer-service-best-practices/][LiveChat]]
@@ -22,7 +33,7 @@
    Chat in minutes. Copy. Paste. Chat. - Olark
    #+END_QUOTE
    They make it sound so easy and also something which a product
-   should be least bothered about.
+   should be _least bothered_ about.
 ** That is so _WRONG_
    #+BEGIN_QUOTE
    Keep your customers closer.
