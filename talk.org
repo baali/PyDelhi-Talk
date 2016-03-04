@@ -1,6 +1,6 @@
 #+SETUPFILE: s5.org
-#+TITLE: Zulip : Chat-With-Customer
-#+AUTHOR: Shantanu
+#+TITLE: Chat-With-Customer @@html:<br>@@ Use Case of Zulip
+#+AUTHOR: Shantanu @@html:<br>@@ TaxSpanner.Com
 #+EMAIL: baali@muse-amuse.in
 #+COMPANY: TaxSpanner.com
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
@@ -67,3 +67,5 @@
   + Keeping threads and frontend interface clean.
 * Questions?
   GitHub Repo: https://github.com/baali/chat-with-us
+
+  Slides: https://github.com/baali/PyDelhi-Talk
