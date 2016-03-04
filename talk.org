@@ -18,7 +18,7 @@
    If answer to both previous questions is *YES* or you are considering
    to add such a feature. Then:
    + We will look at existing options and their limitations.
-   + How we have used/extended zulip to offer a _better_ service.
+   + How we have used and extended zulip to offer a _better_ service.
 ** Options
    + [[https://www.tawk.to][tawk.to]]
    + [[https://www.livechatinc.com/livechat-resources/online-customer-service-best-practices/][LiveChat]]
@@ -54,6 +54,10 @@
    + Bots!
    + File Uploads
 * Demo
+** How we did it?
+   + We added one separate view for customers.
+   + pruned home template.
+   + Added one feature to upstream to handle streams in better way.
 * Issues
   + Despite all the features available with zulip, dedicated solutions
     do have edgy features.
@@ -62,3 +66,4 @@
     + RabbitMQ, Tornado and more.
   + Keeping threads and frontend interface clean.
 * Questions?
+  GitHub Repo: https://github.com/baali/chat-with-us
