@@ -42,9 +42,8 @@
      about history of previous conversations.
    + We Miss out on all the chat-conversations.
      APIs/Logs are there, but...
-   + In the times of *DATA IS KING* you don't want to be the one with
-     leaky holes while everyone else is automating the heck out of
-     everything.
+   + don't be the one with leaky holes while everyone else is
+     automating the heck out of everything.
 * Introduction
   _Zulip_ : =Powerful open source group chat=
 ** Features
@@ -53,6 +52,9 @@
    + Threaded Conversations
    + Bots!
    + File Uploads
+   #+BEGIN_QUOTE
+   Slack + _More_
+   #+END_QUOTE
 * Demo
 ** How we did it?
    + We added one separate view for customers.
